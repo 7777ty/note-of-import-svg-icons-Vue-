@@ -23,7 +23,9 @@ declare module "*.svg" {
 
 5. 由于我们没有webpack.config.js,因此我们应按照Vue.cli的文档，将loader的一段内容进行翻译。
 ![](config.png)
-翻译完成后：
+
+
+翻译完成后，黏贴至vue.config.js：
 ```js
 const path = require('path')  //引入path模块，nodeJs的模块。
 
